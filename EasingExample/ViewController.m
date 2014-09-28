@@ -26,7 +26,7 @@
     [UIView animateWithDuration:.7 animations:^{
         
         // Set a custom easing function
-        [self.actionButton setEasingFunction:easeInOutQuad forKeyPath:@"center"];
+        [self.actionButton setEasingFunction:CreateCAMediaTimingFunction(0.47, 0, 0.745, 0.715) forKeyPath:@"center"];
         
         // Make the button fall down
         self.actionButton.center = destinationCenter;
