@@ -31,7 +31,7 @@ Please refer to [easings.net](http://easings.net) for all the different possibil
 * easeOutBack
 * easeInOutBack 
 
-## Installation ¯\_(ツ)_/¯
+## Installation  ¯\_(ツ)_/¯
 
 ### Installation with CocoaPods
 
@@ -94,6 +94,6 @@ Follow me on Twitter ([@tapthaker](https://twitter.com/tapthaker))
 * Add a new issue on github.
 * Add a question on stackoverflow and mention me in a tweet with the link.
 
-## To improvise
+## To improve
 
 * Add elastic and bounce easings
