@@ -39,10 +39,10 @@ Please refer to [easings.net](http://easings.net) for all the different possibil
 
 #### Podfile
 
-	```ruby
-	platform :ios, '7.0'
-	pod "UIView-Easing", "~> 0.0.1"
-	```
+```ruby
+platform :ios, '7.0'
+pod "UIView-Easing", "~> 0.0.1"
+```
 
 ### Installation from Source
 
@@ -52,30 +52,30 @@ Simply add the UIView+Easing.h and UIView+Easing.m files inside your project.
 
 Just import the UIView+Easing.h file where ever needed and write in something like the following.
 
-		```objective-c
- 	 	[self.dialogView setEasingFunction:easeOutBack forKeyPath:@"center"];
-    	[UIView animateWithDuration:.6 animations:^{
-    		self.dialogView.center = CGPointMake(CGRectGetMidX(self.view.bounds), CGRectGetMidY(self.view.bounds));
-     	} completion:^(BOOL finished) {
+```objective-c
+[self.dialogView setEasingFunction:easeOutBack forKeyPath:@"center"];
+[UIView animateWithDuration:.6 animations:^{
+self.dialogView.center = CGPointMake(CGRectGetMidX(self.view.bounds), CGRectGetMidY(self.view.bounds));
+} completion:^(BOOL finished) {
         
-        [self.dialogView removeEasingFunctionForKeyPath:@"center"];
-        [self.dialogView removeEasingFunctionForKeyPath:@"transform"];
+[self.dialogView removeEasingFunctionForKeyPath:@"center"];
+[self.dialogView removeEasingFunctionForKeyPath:@"transform"];
         
-    	}];
-    	```
+}];
+```
     	
 ### Using your custom easing functions
 
- 	 	```objective-c
- 	 	[self.button setEasingFunction:CreateCAMediaTimingFunction(0.47, 0, 0.745, 0.715) forKeyPath:@"center"];
-    	[UIView animateWithDuration:.6 animations:^{
-    		self.button.center = CGPointMake(160,80);
-     	} completion:^(BOOL finished) {
-        
-        [self.button removeEasingFunctionForKeyPath:@"center"];
-        
-    	}];
-    	```
+```objective-c
+[self.button setEasingFunction:CreateCAMediaTimingFunction(0.47, 0, 0.745, 0.715) forKeyPath:@"center"];
+[UIView animateWithDuration:.6 animations:^{
+	self.button.center = CGPointMake(160,80);
+} completion:^(BOOL finished) {
+
+[self.button removeEasingFunctionForKeyPath:@"center"];
+
+}];
+```
     	
 ## Demo
 
