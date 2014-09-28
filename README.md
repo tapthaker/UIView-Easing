@@ -1,6 +1,6 @@
 #UIView+Easing
 
-Inspired from [UIView-EasingFunctions](https://github.com/zrxq/UIView-EasingFunctions)  with some difference in implementation, this doesn't used AHEasing, instead it uses CAMediaTimingFunction. Created mainly because the previously mentioned repo doesn't support ios8 and results in spazzy animations and also has problems with 64bit architecture.
+Inspired from [UIView-EasingFunctions](https://github.com/zrxq/UIView-EasingFunctions)  with some difference in implementation, this doesn't use AHEasing, instead it uses CAMediaTimingFunction. Created mainly because the previously mentioned repo doesn't support ios8 and results in spazzy animations and also has problems with 64bit architecture.
 
 ## Easings Supported
 
