@@ -6,7 +6,7 @@ Inspired from [UIView-EasingFunctions](https://github.com/zrxq/UIView-EasingFunc
 Easings Supported
 =================
 
-Please refer to [this website](http://easings.net) for all the different possibilities of easings.
+Please refer to [easings.net](http://easings.net) for all the different possibilities of easings.
 
 * easeInSine
 * easeOutSine
@@ -64,7 +64,7 @@ Just import the UIView+Easing.h & UIView+Easing.m files into your project direct
 Demo
 ====
 
-[![Click here to redirect to youtube (Too bad github doesn't provide video embedding)](http://img.youtube.com/vi/VBGnVLRq49s/2.jpg)](http://youtu.be/VBGnVLRq49s)
+[![Click here to redirect to youtube (Too bad github doesn't provide video embedding)](http://img.youtube.com/vi/VBGnVLRq49s/0.jpg)](http://youtu.be/VBGnVLRq49s)
 
 
 Contact
