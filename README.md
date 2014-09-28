@@ -2,7 +2,7 @@
 
 Inspired from [UIView-EasingFunctions](https://github.com/zrxq/UIView-EasingFunctions)  with some difference in implementation, this doesn't use AHEasing, instead it uses CAMediaTimingFunction. Created mainly because the previously mentioned repo doesn't support ios8 and results in spazzy animations and also has problems with 64bit architecture.
 
-## Easings Supported
+## Easings Supported 
 
 Please refer to [easings.net](http://easings.net) for all the different possibilities of easings.
 
@@ -31,7 +31,7 @@ Please refer to [easings.net](http://easings.net) for all the different possibil
 * easeOutBack
 * easeInOutBack 
 
-## Installation
+## Installation ¯\_(ツ)_/¯
 
 ### Installation with CocoaPods
 
@@ -48,7 +48,7 @@ pod "UIView-Easing", "~> 0.0.1"
 
 Simply add the UIView+Easing.h and UIView+Easing.m files inside your project. 
 
-## Usage
+## Usage (•ิ_•ิ)?
 
 Just import the UIView+Easing.h file where ever needed and write in something like the following.
 
@@ -87,3 +87,13 @@ self.dialogView.center = CGPointMake(CGRectGetMidX(self.view.bounds), CGRectGetM
 
 
 Follow me on Twitter ([@tapthaker](https://twitter.com/tapthaker))
+
+
+## Problems ? (✖╭╮✖)
+
+* Add a new issue on github.
+* Add a question on stackoverflow and mention me in a tweet with the link.
+
+## To improvise
+
+* Add elastic and bounce easings
