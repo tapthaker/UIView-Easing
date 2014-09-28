@@ -40,7 +40,7 @@ Usage
 
 Just import the UIView+Easing.h & UIView+Easing.m files into your project directory and use in the following way
 
- 	 ```[self.dialogView setEasingFunction:easeOutBack forKeyPath:@"center"];
+ 	 	[self.dialogView setEasingFunction:easeOutBack forKeyPath:@"center"];
     	[UIView animateWithDuration:.6 animations:^{
     		self.dialogView.center = CGPointMake(CGRectGetMidX(self.view.bounds), CGRectGetMidY(self.view.bounds));
      	} completion:^(BOOL finished) {
@@ -48,18 +48,18 @@ Just import the UIView+Easing.h & UIView+Easing.m files into your project direct
         [self.dialogView removeEasingFunctionForKeyPath:@"center"];
         [self.dialogView removeEasingFunctionForKeyPath:@"transform"];
         
-    	}];```
+    	}];
     	
 **Using your custom easing functions**
 
- 	 ```[self.button setEasingFunction:CreateCAMediaTimingFunction(0.47, 0, 0.745, 0.715) forKeyPath:@"center"];
+ 	 	[self.button setEasingFunction:CreateCAMediaTimingFunction(0.47, 0, 0.745, 0.715) forKeyPath:@"center"];
     	[UIView animateWithDuration:.6 animations:^{
     		self.button.center = CGPointMake(160,80);
      	} completion:^(BOOL finished) {
         
         [self.button removeEasingFunctionForKeyPath:@"center"];
         
-    	}];```
+    	}];
     	
 Demo
 ====
@@ -70,4 +70,4 @@ Demo
 Contact
 =======
 
-Follow me on Twitter (@tapthaker)
+Follow me on Twitter ([@tapthaker](https://twitter.com/tapthaker))
