@@ -39,9 +39,10 @@ Please refer to [easings.net](http://easings.net) for all the different possibil
 
 #### Podfile
 
-```ruby
+	```ruby
 	platform :ios, '7.0'
-	pod "UIView-Easing", "~> 0.0.1"```
+	pod "UIView-Easing", "~> 0.0.1"
+	```
 
 ### Installation from Source
 
@@ -60,7 +61,8 @@ Just import the UIView+Easing.h file where ever needed and write in something li
         [self.dialogView removeEasingFunctionForKeyPath:@"center"];
         [self.dialogView removeEasingFunctionForKeyPath:@"transform"];
         
-    	}];```
+    	}];
+    	```
     	
 ### Using your custom easing functions
 
@@ -72,7 +74,8 @@ Just import the UIView+Easing.h file where ever needed and write in something li
         
         [self.button removeEasingFunctionForKeyPath:@"center"];
         
-    	}];```
+    	}];
+    	```
     	
 ## Demo
 
